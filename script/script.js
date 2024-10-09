@@ -131,7 +131,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
   }
 }
 
-console.log(femaleCharacters)
+console.log('femalecharacters', femaleCharacters)
 
 /* ESERCIZIO 4
     Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
@@ -156,19 +156,19 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 
   switch (starWarsCharacters[i].eye_color) {
     case 'blue':
-      eyeColor.blue.push(starWarsCharacters[i].name)
+      eyeColor.blue.push(starWarsCharacters[i])
       break
     case 'yellow':
-      eyeColor.yellow.push(starWarsCharacters[i].name)
+      eyeColor.yellow.push(starWarsCharacters[i])
       break
     case 'brown':
-      eyeColor.brown.push(starWarsCharacters[i].name)
+      eyeColor.brown.push(starWarsCharacters[i])
       break
     case 'red':
-      eyeColor.red.push(starWarsCharacters[i].name)
+      eyeColor.red.push(starWarsCharacters[i])
       break
     case 'blue_gray':
-      eyeColor.blue_gray.push(starWarsCharacters[i].name)
+      eyeColor.blue_gray.push(starWarsCharacters[i])
       break
     default:
   }
